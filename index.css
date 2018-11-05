@@ -1,0 +1,20 @@
+body { 
+background-color: #ffbb99;
+color: Brown;
+font-family: arial, helvetica, sans-serif;
+}
+/* My comment */
+
+ul {
+    list-style-type: circle;
+}
+h1 {
+    background-color: Khaki;
+}
+h2 {
+    background-color: Khaki;
+}
+p {
+    background-color: Khaki;
+    
+}
