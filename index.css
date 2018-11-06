@@ -1,20 +1,39 @@
 body { 
-background-color: #ffbb99;
-color: Brown;
+background-color: #fff4e6;
+color: Crimson;
 font-family: arial, helvetica, sans-serif;
 }
-/* My comment */
+/* hmh 2018-11-6 I've changed styles for h1-h6 and changed the background colors for a more appealing look */
 
 ul {
-    list-style-type: circle;
+    list-style-type: circle; color: Crimson;
 }
 h1 {
-    background-color: Khaki; color: Darkred;
+    background-color: Lightgray; color: Darkred;
 }
 h2 {
-    background-color: Khaki; color: Darkred;
+    background-color: Lightgray; color: Darkred;
+}
+h3  {
+    background-color: Lightgray; color: Darkred
+}
+h4  {
+    background-color: Lightgray; color: Darkred
+}
+h5  {
+    background-color: Lightgray; color: Darkred
+}
+h6  {
+    background-color: Lightgray; color: Darkred
 }
 p {
-    background-color: Khaki; color: Crimson;
+    color: Crimson;
     
 }
+img {
+    width: 200px; height: 150px; display: block; margin-left: auto; margin-right: auto;
+}
+a   {
+    text-align: center; text-indent: 50px;  
+}
+
