@@ -30,10 +30,38 @@ p {
     color: Crimson;
     
 }
-img {
-    width: 200px; height: 150px; display: block; margin-left: auto; margin-right: auto;
-}
+
 a   {
     text-align: center; text-indent: 50px;  
+}
+.title {
+    background-color: White;
+}
+.hobbies {
+    color: black; 
+}
+.obj {
+    color: black;
+}
+.ed {
+    color: black;
+}
+.ach {
+    color: black;
+}
+.empl {
+    color: black
+}
+.lang {
+    color: black;
+}
+.skills {
+    color: black;
+}
+#puppy {
+    width: 200px; height: 150px; margin: auto; display: block;
+}
+#fashion {
+    width: 200px; height: 150px; margin: auto; display: block;
 }
 
