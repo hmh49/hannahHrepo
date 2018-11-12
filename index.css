@@ -4,30 +4,32 @@ color: Crimson;
 font-family: arial, helvetica, sans-serif;
 }
 /* hmh 2018-11-6 I've changed styles for h1-h6 and changed the background colors for a more appealing look */
+/* hmh 2018-11-12 I've added padding and margins to my headings and paragraphs and centered my title */
 
 ul {
     list-style-type: circle; color: Crimson;
 }
 h1 {
-    background-color: Lightgray; color: Darkred;
+    background-color: Lightgray; color: Darkred; padding: 50px; margin: 50px; text-align: center; border: 1px solid #5D6063
 }
+
 h2 {
-    background-color: Lightgray; color: Darkred;
+    background-color: Lightgray; color: Darkred; padding: 20px; border: 1px solid #5D6063
 }
 h3  {
-    background-color: Lightgray; color: Darkred
+    background-color: Lightgray; color: Darkred; border: 1px solid #5D6063
 }
 h4  {
-    background-color: Lightgray; color: Darkred
+    background-color: Lightgray; color: Darkred; border: 1px solid #5D6063
 }
 h5  {
-    background-color: Lightgray; color: Darkred
+    background-color: Lightgray; color: Darkred; border: 1px solid #5D6063
 }
 h6  {
-    background-color: Lightgray; color: Darkred
+    background-color: Lightgray; color: Darkred; border: 1px solid #5D6063
 }
 p {
-    color: Crimson;
+    color: Crimson; 
     
 }
 
@@ -41,22 +43,22 @@ a   {
     color: black; 
 }
 .obj {
-    color: black;
+    color: black; padding: 0px; text-align: center; margin: 0px;
 }
 .ed {
-    color: black;
+    color: black; padding: 0px;text-align: center; margin: 0px;
 }
 .ach {
-    color: black;
+    color: black;padding: 0px;text-align: center; margin: 0px;
 }
 .empl {
-    color: black
+    color: black; padding: 0px;text-align: center; margin: 0px;
 }
 .lang {
-    color: black;
+    color: black; padding: 0px;text-align: center; margin: 0px;
 }
 .skills {
-    color: black;
+    color: black; padding: 0px;text-align: center; margin: 0px;
 }
 #puppy {
     width: 200px; height: 150px; margin: auto; display: block;
