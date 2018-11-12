@@ -43,22 +43,22 @@ a   {
     color: black; 
 }
 .obj {
-    color: black; padding: 0px; text-align: center; margin: 0px;
+    color: black; padding: 0px; text-align: center; margin: 0px; font-size: 20px; 
 }
 .ed {
-    color: black; padding: 0px;text-align: center; margin: 0px;
+    color: black; padding: 0px;text-align: center; margin: 0px; font-size: 20px; 
 }
 .ach {
-    color: black;padding: 0px;text-align: center; margin: 0px;
+    color: black;padding: 0px;text-align: center; margin: 0px; font-size: 20px; 
 }
 .empl {
-    color: black; padding: 0px;text-align: center; margin: 0px;
+    color: black; padding: 0px;text-align: center; margin: 0px; font-size: 20px; 
 }
 .lang {
-    color: black; padding: 0px;text-align: center; margin: 0px;
+    color: black; padding: 0px;text-align: center; margin: 0px; font-size: 20px; 
 }
 .skills {
-    color: black; padding: 0px;text-align: center; margin: 0px;
+    color: black; padding: 0px;text-align: center; margin: 0px; font-size: 20px; 
 }
 #puppy {
     width: 200px; height: 150px; margin: auto; display: block;
