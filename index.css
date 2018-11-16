@@ -60,10 +60,56 @@ a   {
 .skills {
     color: black; padding: 0px;text-align: center; margin: 0px; font-size: 20px; 
 }
+/* 
 #puppy {
-    width: 200px; height: 150px; margin: auto; display: block;
+    width: 200px; height: 150px; margin: auto; display: flex;
 }
 #fashion {
-    width: 200px; height: 150px; margin: auto; display: block;
+    width: 200px; height: 150px; margin: auto; display: flex;
 }
-
+ */
+.bar {
+  background-color: red;
+  height: 21px;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+}
+.bar text {
+  color: black;
+}
+.bar:hover,
+.bar:focus {
+  background-color: black;
+}
+.bar:hover text,
+.bar:focus text {
+  background-color: red;
+}
+.images-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    height: 200px;
+    width: 250px;
+}
+/* I changed all my photos to flex and changed their vertical alignment to horizontal, and centered them */
+/* 
+.images-container {
+    display: flex; flex-direction: row; align-items: center; height: 150px;
+}
+.images-container {
+    display: flex; flex-direction: row; align-items: center; height: 150px;
+}
+.rome {
+    display: flex; flex-direction: row; align-items: center; height: 150px;
+}
+.paris {
+    display: flex; flex-direction: row; align-items: center; height: 150px;
+}
+.arc {
+    display: flex; flex-direction: row; align-items: center; height: 150px;
+}
+ * /*
