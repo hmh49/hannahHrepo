@@ -99,7 +99,7 @@ a   {
 /* 
 .images-container {
     display: flex; flex-direction: row; align-items: center; height: 150px;
-}
+
 .images-container {
     display: flex; flex-direction: row; align-items: center; height: 150px;
 }
@@ -110,6 +110,5 @@ a   {
     display: flex; flex-direction: row; align-items: center; height: 150px;
 }
 .arc {
-    display: flex; flex-direction: row; align-items: center; height: 150px;
-}
- * /*
+    display: flex; flex-direction: row; align-items: center; height: 150px; 
+*/
