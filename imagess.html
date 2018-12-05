@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
         <title>Travel Photos</title>
         <link rel="stylesheet" type="text/css" href="index.css"/> 
         <meta charset="UTF-8" />
         <meta name="author" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="javaintro.js">/**/</script>
+        <!-- hmh 2018-12-5 I have added script to add javascript -->
     </head>
     <body>
+        <hr/>
+        <p><a href="index.html">Main</a> | <a href="about.html">About</a> | 
+            <a href="resume.html">Resume</a> | <a href="imagess.html">Travel Photos</a></p>
+        <hr/>
         <h1><b>My Favorite Travel Photos</b></h1>
         <span
-            onclick="alert('This message came from clicking the span!');"
+            onclick="alert('Where would you like to travel?!');"
             style="color:blue; text-decoration:underline; cursor:pointer">Click Here</span>
         <!-- hmh 2018-11-28 I added javascript -->
         <div class='images-container'>
-            <div class= 'rome'><img src="images/rome.jpg" class= 'image'/></div>
-            <div class= 'paris'><img src="images/paris1.jpg" class= 'image'/></div>
-            <div class= 'paris'><img src="images/paris2.jpg" class= 'image'/></div>
+            <div class= 'rome'><img src="images/rome.jpg" alt="rome" class= 'image'/></div>
+            <div class= 'paris'><img src="images/paris1.jpg" alt="paris" class= 'image'/></div>
+            <div class= 'paris'><img src="images/paris2.jpg" alt="paris" class= 'image'/></div>
         </div>
     </body>
 </html>
